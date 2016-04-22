@@ -1,0 +1,21 @@
+<block>
+  <name>Lte random bit gen</name>
+  <key>my_lte_lte_random_bit_gen</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.lte_random_bit_gen($packet_len, $usleep_val)</make>
+  <param>
+    <name>Packet length</name>
+    <key>packet_len</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>sleep value(in micro sec.)</name>
+    <key>usleep_val</key>
+    <type>int</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

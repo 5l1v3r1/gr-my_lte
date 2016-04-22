@@ -1,0 +1,59 @@
+<block>
+  <name>Precoder</name>
+  <key>my_lte_precoder</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.precoder($N_ant, $set_align, $is_phich, $n_phich_group, $normal_cp)</make>
+  <param>
+    <name>Num. ant</name>
+    <key>N_ant</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Set alignment</name>
+    <key>set_align</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Is phich</name>
+    <key>is_phich</key>
+    <type>enum</type>
+	<option>
+		<name>PHICH</name>
+		<key>True</key>
+	</option>
+	<option>
+		<name>Other Channels</name>
+		<key>False</key>
+	</option>
+  </param>
+  <param>
+    <name>Num. PHICH group</name>
+    <key>n_phich_group</key>
+    <value>1</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>CP</name>
+    <key>normal_cp</key>
+    <type>enum</type>
+	<option>
+		<name>Normal CP</name>
+		<key>True</key>
+	</option>
+	<option>
+		<name>Extended CP</name>
+		<key>False</key>
+	</option>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <nports>$N_ant</nports>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <nports>$N_ant</nports>
+  </source>
+</block>

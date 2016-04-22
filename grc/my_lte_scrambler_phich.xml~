@@ -1,0 +1,30 @@
+<block>
+  <name>Scrambler phich</name>
+  <key>my_lte_scrambler_phich</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.scrambler_phich($N_id_cell, $rnti, $set_align)</make>
+  <param>
+    <name>cell id</name>
+    <key>N_id_cell</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>RNTI/name>
+    <key>rnti</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Set align</name>
+    <key>set_align</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

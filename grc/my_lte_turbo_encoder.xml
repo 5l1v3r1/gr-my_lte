@@ -1,0 +1,15 @@
+<block>
+  <name>Turbo encoder</name>
+  <key>my_lte_turbo_encoder</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.turbo_encoder()</make>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="apps">
+        <df name="CMakeFiles">
+          <df name="pygen_apps_9a6dd.dir">
+          </df>
+        </df>
+      </df>
+      <df name="build">
+        <df name="apps">
+          <df name="CMakeFiles">
+            <df name="pygen_apps_9a6dd.dir">
+            </df>
+          </df>
+        </df>
+        <df name="CMakeFiles">
+          <df name="2.8.12.2">
+            <df name="CompilerIdC">
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <df name="CheckTypeSize">
+            <in>SIZEOF_SIZE_T.c</in>
+            <in>SIZEOF_UINT.c</in>
+          </df>
+          <df name="CMakeTmp">
+          </df>
+          <df name="uninstall.dir">
+          </df>
+        </df>
+        <df name="doc-pak">
+          <df name="docs">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+        </df>
+        <df name="docs">
+          <df name="CMakeFiles">
+          </df>
+        </df>
+        <df name="grc">
+          <df name="CMakeFiles">
+          </df>
+        </df>
+        <df name="include">
+          <df name="my_lte">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+        </df>
+        <df name="lib">
+          <df name="CMakeFiles">
+            <df name="gnuradio-my_lte.dir">
+            </df>
+            <df name="test-my_lte.dir">
+            </df>
+          </df>
+        </df>
+        <df name="python">
+          <df name="CMakeFiles">
+            <df name="pygen_python_f5152.dir">
+            </df>
+          </df>
+        </df>
+        <df name="swig">
+          <df name="CMakeFiles">
+            <df name="_my_lte_swig.dir">
+            </df>
+            <df name="_my_lte_swig_swig_tag.dir">
+            </df>
+            <df name="my_lte_swig_swig_2d0df.dir">
+            </df>
+            <df name="my_lte_swig_swig_doc.dir">
+            </df>
+            <df name="pygen_swig_46cf4.dir">
+            </df>
+          </df>
+          <in>_my_lte_swig_swig_tag.cpp</in>
+          <in>my_lte_swigPYTHON_wrap.cxx</in>
+          <in>my_lte_swig_doc.i</in>
+          <in>my_lte_swig_swig_2d0df.cpp</in>
+        </df>
+      </df>
+      <df name="build-pdcch_test-Desktop-Debug">
+      </df>
+      <df name="ch_src">
+        <in>main.cpp</in>
+      </df>
+      <df name="cmake">
+        <df name="Modules">
+        </df>
+      </df>
+      <df name="CMakeFiles">
+        <df name="2.8.12.2">
+          <df name="CompilerIdC">
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <df name="CheckTypeSize">
+          <in>SIZEOF_SIZE_T.c</in>
+          <in>SIZEOF_UINT.c</in>
+        </df>
+        <df name="CMakeTmp">
+        </df>
+        <df name="uninstall.dir">
+        </df>
+      </df>
+      <df name="docs">
+        <df name="CMakeFiles">
+        </df>
+        <df name="doxygen">
+          <df name="doxyxml">
+            <df name="generated">
+            </df>
+          </df>
+          <df name="other">
+          </df>
+        </df>
+      </df>
+      <df name="examples">
+      </df>
+      <df name="gr-my_lte_test">
+        <in>main.cpp</in>
+        <in>one_ts_data_with_cp.m</in>
+      </df>
+      <df name="gr-my_lte_test _2">
+        <in>lte_phy_dl_tx.cpp</in>
+        <in>lte_phy_dl_tx.h</in>
+        <in>main.cpp</in>
+        <in>one_ts_data_with_cp.m</in>
+      </df>
+      <df name="grc">
+        <df name="CMakeFiles">
+        </df>
+      </df>
+      <df name="include">
+        <df name="my_lte">
+          <df name="CMakeFiles">
+          </df>
+          <in>api.h</in>
+          <in>cfi_gen.h</in>
+          <in>code_block_concatenation.h</in>
+          <in>code_block_segmentation.h</in>
+          <in>conv_enc.h</in>
+          <in>cp_adder.h</in>
+          <in>crc_attachment.h</in>
+          <in>dci_gen.h</in>
+          <in>layer_mapper.h</in>
+          <in>lte_random_bit_gen.h</in>
+          <in>modulation_mapper.h</in>
+          <in>pdcch_interleaver.h</in>
+          <in>pdcch_mux.h</in>
+          <in>phich_alignment.h</in>
+          <in>phich_grouping.h</in>
+          <in>phich_orthogonalization.h</in>
+          <in>precoder.h</in>
+          <in>rate_match.h</in>
+          <in>rate_match_conv.h</in>
+          <in>repeater.h</in>
+          <in>resource_mapper.h</in>
+          <in>scrambler.h</in>
+          <in>scrambler_phich.h</in>
+          <in>turbo_encoder.h</in>
+          <in>typedefs.h</in>
+        </df>
+      </df>
+      <df name="lib">
+        <df name="CMakeFiles">
+          <df name="gnuradio-my_lte.dir">
+          </df>
+          <df name="test-my_lte.dir">
+          </df>
+        </df>
+        <in>cfi_gen_impl.cc</in>
+        <in>cfi_gen_impl.h</in>
+        <in>code_block_concatenation_impl.cc</in>
+        <in>code_block_concatenation_impl.h</in>
+        <in>code_block_segmentation_impl.cc</in>
+        <in>code_block_segmentation_impl.h</in>
+        <in>conv_enc_impl.cc</in>
+        <in>conv_enc_impl.h</in>
+        <in>cp_adder_impl.cc</in>
+        <in>cp_adder_impl.h</in>
+        <in>crc_attachment_impl.cc</in>
+        <in>crc_attachment_impl.h</in>
+        <in>dci_gen_impl.cc</in>
+        <in>dci_gen_impl.h</in>
+        <in>layer_mapper_impl.cc</in>
+        <in>layer_mapper_impl.h</in>
+        <in>lte_random_bit_gen_impl.cc</in>
+        <in>lte_random_bit_gen_impl.h</in>
+        <in>modulation_mapper_impl.cc</in>
+        <in>modulation_mapper_impl.h</in>
+        <in>pdcch_interleaver_impl.cc</in>
+        <in>pdcch_interleaver_impl.h</in>
+        <in>pdcch_mux_impl.cc</in>
+        <in>pdcch_mux_impl.h</in>
+        <in>phich_alignment_impl.cc</in>
+        <in>phich_alignment_impl.h</in>
+        <in>phich_grouping_impl.cc</in>
+        <in>phich_grouping_impl.h</in>
+        <in>phich_orthogonalization_impl.cc</in>
+        <in>phich_orthogonalization_impl.h</in>
+        <in>precoder_impl.cc</in>
+        <in>precoder_impl.h</in>
+        <in>qa_my_lte.cc</in>
+        <in>qa_my_lte.h</in>
+        <in>rate_match_conv_impl.cc</in>
+        <in>rate_match_conv_impl.h</in>
+        <in>rate_match_impl.cc</in>
+        <in>rate_match_impl.h</in>
+        <in>repeater_impl.cc</in>
+        <in>repeater_impl.h</in>
+        <in>resource_mapper_impl (alizadeh's conflicted copy 2014-08-09).cc</in>
+        <in>resource_mapper_impl.cc</in>
+        <in>resource_mapper_impl.h</in>
+        <in>scrambler_impl.cc</in>
+        <in>scrambler_impl.h</in>
+        <in>scrambler_phich_impl.cc</in>
+        <in>scrambler_phich_impl.h</in>
+        <in>test_my_lte.cc</in>
+        <in>turbo_encoder_impl.cc</in>
+        <in>turbo_encoder_impl.h</in>
+      </df>
+      <df name="pdcch_test">
+        <in>main.cpp</in>
+      </df>
+      <df name="python">
+        <df name="CMakeFiles">
+          <df name="pygen_python_fe37d.dir">
+          </df>
+        </df>
+      </df>
+      <df name="swig">
+        <df name="CMakeFiles">
+          <df name="_my_lte_swig.dir">
+          </df>
+          <df name="_my_lte_swig_swig_tag.dir">
+          </df>
+          <df name="my_lte_swig_swig_2d0df.dir">
+          </df>
+          <df name="my_lte_swig_swig_doc.dir">
+          </df>
+          <df name="pygen_swig_2c999.dir">
+          </df>
+        </df>
+        <in>_my_lte_swig_swig_tag.cpp</in>
+        <in>my_lte_swig.i</in>
+        <in>my_lte_swigPYTHON_wrap.cxx</in>
+        <in>my_lte_swig_doc.i</in>
+        <in>my_lte_swig_swig_2d0df.cpp</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

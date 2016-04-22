@@ -1,0 +1,41 @@
+<block>
+  <name>Modulation mapper</name>
+  <key>my_lte_modulation_mapper</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.modulation_mapper($mod_type, $set_align)</make>
+  <param>
+    <name>Modulation Type</name>
+    <key>mod_type</key>
+    <type>enum</type>
+    	<option>
+	<name>BPSK</name>
+	<key>"BPSK"</key>
+	</option>
+	<option>
+	<name>QPSK</name>
+	<key>"QPSK"</key>
+	</option>
+	<option>
+	<name>16QAM</name>
+	<key>"16QAM"</key>
+	</option>
+	<option>
+	<name>64QAM</name>
+	<key>"64QAM"</key>
+	</option>
+  </param>
+  <param>
+    <name>Set Alignment</name>
+    <key>set_align</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>raw</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

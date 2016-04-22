@@ -1,0 +1,56 @@
+<block>
+  <name>Crc attachment</name>
+  <key>my_lte_crc_attachment</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.crc_attachment($CRC_type, $N_ant, $ch_name, $ninput_needed, $rnti)</make>
+  <param>
+    <name>CRC type</name>
+    <key>CRC_type</key>
+    <type>enum</type>
+        <option>
+        	<name>CRC16</name>
+        	<key>0x00011021</key>
+        </option>
+	<option>
+        	<name>CRC24A</name>
+        	<key>0x01864CFB</key>
+        </option>
+        <option>
+        	<name>CRC24B</name>
+        	<key>0x01800063</key>
+        </option>
+        <option>
+        	<name>CRC8</name>
+        	<key>0x0000019B</key>
+	</option>
+  </param>
+  <param>
+    <name>Num. ant</name>
+    <key>N_ant</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Channel name</name>
+    <key>ch_name</key>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Ninput needed</name>
+    <key>ninput_needed</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>RNTI</name>
+    <key>rnti</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

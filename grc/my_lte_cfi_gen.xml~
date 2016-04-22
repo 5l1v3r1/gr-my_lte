@@ -1,0 +1,21 @@
+<block>
+  <name>Cfi gen</name>
+  <key>my_lte_cfi_gen</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.cfi_gen($N_dl_prb, $cfi_val)</make>
+  <param>
+    <name>N_dl_prb</name>
+    <key>N_dl_prb</key>
+    <type>byte</type>
+  </param>
+  <param>
+    <name>Cfi_val</name>
+    <key>cfi_val</key>
+    <type>int</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

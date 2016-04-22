@@ -1,0 +1,92 @@
+<block>
+  <name>Dci gen</name>
+  <key>my_lte_dci_gen</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.dci_gen($dci_t, $rnti, $carrier_ind, $rv_idx, $N_dl_prb, $N_layers, $tx_mode, $N_dl_harq, $mcs, $ndi, $N_ant, $alloc_len, $RB_start)</make>
+  <param>
+    <name>Dci type</name>
+    <key>dci_t</key>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Rnti</name>
+    <key>rnti</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Carrier indicator</name>
+    <key>carrier_ind</key>
+    <type>enum</type>
+	<option>
+		<name>Represented</name>
+		<key>True</key>
+	</option>
+	<option>
+		<name>Not represented</name>
+		<key>False</key>
+	</option>
+  </param>
+  <param>
+    <name>Redundancy version</name>
+    <key>rv_idx</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>N dl prb</name>
+    <key>N_dl_prb</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Num. layers</name>
+    <key>N_layers</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Tx mode</name>
+    <key>tx_mode</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>N dl harq</name>
+    <key>N_dl_harq</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>mcs</name>
+    <key>mcs</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>New data indicator</name>
+    <key>ndi</key>
+    <type>enum</type>
+	<option>
+		<name>Represented</name>
+		<key>True</key>
+	</option>
+	<option>
+		<name>Not represented</name>
+		<key>False</key>
+	</option>
+  </param>
+  <param>
+    <name>Num. ant</name>
+    <key>N_ant</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Alloc. len</name>
+    <key>alloc_len</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>RB start</name>
+    <key>RB_start</key>
+    <type>int</type>
+  </param>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

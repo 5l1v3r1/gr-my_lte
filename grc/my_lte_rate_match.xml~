@@ -1,0 +1,58 @@
+<block>
+  <name>Rate match</name>
+  <key>my_lte_rate_match</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.rate_match($N_e_bits, $N_code_block, $tx_mode, $N_soft, $M_dl_harq, $rv_idx, $chan_name)</make>
+  <param>
+    <name>N out bits</name>
+    <key>N_e_bits</key>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>N code block</name>
+    <key>N_code_block</key>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>Tx mode</name>
+    <key>tx_mode</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>N soft</name>
+    <key>N_soft</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>M dl harq</name>
+    <key>M_dl_harq</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Rv idx</name>
+    <key>rv_idx</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Chan name</name>
+    <key>chan_name</key>
+    <type>string</type>
+    <option>
+	<name>PDSCH</name>
+	<key>"PDSCH"</key>
+    </option>
+    <option>
+	<name>PMCH</name>
+	<key>"PMCH"</key>
+    </option>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

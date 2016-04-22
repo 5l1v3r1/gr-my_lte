@@ -1,0 +1,20 @@
+<block>
+  <name>Convolutional rate match</name>
+  <key>my_lte_rate_match_conv</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.rate_match_conv($N_e_bits)</make>
+  <param>
+    <name>Num. e bits</name>
+    <key>N_e_bits</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

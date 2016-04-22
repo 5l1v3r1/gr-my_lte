@@ -1,0 +1,34 @@
+<block>
+  <name>PHICH grouping</name>
+  <key>my_lte_phich_grouping</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.phich_grouping($normal_cp, $n_phich_group)</make>
+  <param>
+    <name>CP</name>
+    <key>normal_cp</key>
+    <type>enum</type>
+	<option>
+		<name>Normal CP</name>
+		<key>True</key>
+        </option>
+	<option>
+		<name>Extended CP</name>
+		<key>False</key>
+	</option>
+  </param>
+  <param>
+    <name>Num. phich group</name>
+    <key>n_phich_group</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <nports>$n_phich_group * (#if str($normal_cp).startswith('True') then 8 else 4#) </nports>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

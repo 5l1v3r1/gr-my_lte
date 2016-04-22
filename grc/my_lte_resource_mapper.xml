@@ -1,0 +1,47 @@
+<block>
+  <name>Resource mapper</name>
+  <key>my_lte_resource_mapper</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.resource_mapper($N_id_1, $N_id_2, $N_dl_prb)</make>
+  <param>
+    <name>N id 1</name>
+    <key>N_id_1</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>N id 2</name>
+    <key>N_id_2</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>N dl prb</name>
+    <key>N_dl_prb</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>PBCH</name>
+    <type>complex</type>
+  </sink>
+  <sink>
+    <name>PDSCH</name>
+    <type>complex</type>
+  </sink>
+  <sink>
+    <name>PDCCH</name>
+    <type>complex</type>
+  </sink>
+  <sink>
+    <name>PHICH</name>
+    <type>complex</type>
+  </sink>
+  <sink>
+    <name>PCFICH</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <vlen>2048</vlen>
+  </source>
+</block>

@@ -1,0 +1,33 @@
+<block>
+  <name>Phich alignment</name>
+  <key>my_lte_phich_alignment</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.phich_alignment($normal_cp, $n_phich_group)</make>
+  <param>
+    <name>Normal cp</name>
+    <key>normal_cp</key>
+    <type>enum</type>
+	<option>
+		<name>Normal CP</name>
+		<key>True</key>
+        </option>
+	<option>
+		<name>Extended CP</name>
+		<key>False</key>
+	</option>
+  </param>
+  <param>
+    <name>Num. phich group</name>
+    <key>n_phich_group</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

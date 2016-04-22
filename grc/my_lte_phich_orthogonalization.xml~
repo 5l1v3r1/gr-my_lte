@@ -1,0 +1,25 @@
+<block>
+  <name>PHICH orthogonalization</name>
+  <key>my_lte_phich_orthogonalization</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.phich_orthogonalization($normal_cp, $N_PHICH_seq)</make>
+  <param>
+    <name>Normal cp</name>
+    <key>normal_cp</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Num. of PHICH seq</name>
+    <key>N_PHICH_seq</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

@@ -1,0 +1,10 @@
+/home/mostafa/Dropbox/LTE/OOT/gr-my_lte_000/swig/CMakeFiles/_my_lte_swig.dir
+/home/mostafa/Dropbox/LTE/OOT/gr-my_lte_000/swig/CMakeFiles/_my_lte_swig_swig_tag.dir
+/home/mostafa/Dropbox/LTE/OOT/gr-my_lte_000/lib/CMakeFiles/gnuradio-my_lte.dir
+/home/mostafa/Dropbox/LTE/OOT/gr-my_lte_000/swig/CMakeFiles/my_lte_swig_swig_2d0df.dir
+/home/mostafa/Dropbox/LTE/OOT/gr-my_lte_000/swig/CMakeFiles/my_lte_swig_swig_doc.dir
+/home/mostafa/Dropbox/LTE/OOT/gr-my_lte_000/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/mostafa/Dropbox/LTE/OOT/gr-my_lte_000/python/CMakeFiles/pygen_python_fe37d.dir
+/home/mostafa/Dropbox/LTE/OOT/gr-my_lte_000/swig/CMakeFiles/pygen_swig_2c999.dir
+/home/mostafa/Dropbox/LTE/OOT/gr-my_lte_000/lib/CMakeFiles/test-my_lte.dir
+/home/mostafa/Dropbox/LTE/OOT/gr-my_lte_000/CMakeFiles/uninstall.dir

@@ -1,0 +1,16 @@
+<block>
+  <name>Code block segmentation</name>
+  <key>my_lte_code_block_segmentation</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.code_block_segmentation()</make>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+    <nports>3</nports>
+  </source>
+</block>

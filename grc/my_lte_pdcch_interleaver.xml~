@@ -1,0 +1,27 @@
+<block>
+  <name>Pdcch interleaver</name>
+  <key>my_lte_pdcch_interleaver</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.pdcch_interleaver($N_ant, $N_cell_id)</make>
+  <param>
+    <name>N_ant</name>
+    <key>N_ant</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>N_cell_id</name>
+    <key>N_cell_id</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <nports>N_ant</nports>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <nports>N_ant</nports>
+  </source>
+</block>

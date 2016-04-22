@@ -1,0 +1,31 @@
+<block>
+  <name>Code block concatenation</name>
+  <key>my_lte_code_block_concatenation</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.code_block_concatenation($N_code_block, $N_e_bit_max, $set_align)</make>
+  <param>
+    <name>Number of code blocks</name>
+    <key>N_code_block</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Max num. of output bits of rate match</name>
+    <key>N_e_bit_max</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Set Alignment</name>
+    <key>set_align</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+    <nports>$N_code_block</nports>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

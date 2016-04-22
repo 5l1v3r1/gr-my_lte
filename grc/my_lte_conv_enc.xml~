@@ -1,0 +1,43 @@
+<block>
+  <name>Conv enc</name>
+  <key>my_lte_conv_enc</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.conv_enc($constraint_length, $rate, $g, $tail_bit)</make>
+  <param>
+    <name>Constraint length</name>
+    <key>constraint_length</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Rate</name>
+    <key>rate</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>G</name>
+    <key>g</key>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>Tail bit</name>
+    <key>tail_bit</key>
+    <type>enum</type>
+    <option>
+	<name>YES</name>
+	<key>True</key>
+    </option>
+    <option>
+	<name>NO</name>
+	<key>False</key>
+    </option>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

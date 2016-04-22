@@ -1,0 +1,26 @@
+<block>
+  <name>Layer mapper</name>
+  <key>my_lte_layer_mapper</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.layer_mapper($N_ant, $set_align)</make>
+  <param>
+    <name>Num. of Ant</name>
+    <key>N_ant</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Set Alignment</name>
+    <key>set_align</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+    <nports>$N_ant</nports>
+  </source>
+</block>

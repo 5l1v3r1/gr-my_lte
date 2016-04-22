@@ -1,0 +1,26 @@
+<block>
+  <name>Pdcch mux</name>
+  <key>my_lte_pdcch_mux</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.pdcch_mux($n_pdcch, $n_cce)</make>
+  <param>
+    <name>N_pdcch</name>
+    <key>n_pdcch</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>N_cce</name>
+    <key>n_cce</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>raw</type>
+    <nports>n_pdcch</nports>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>raw</type>
+  </source>
+</block>

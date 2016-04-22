@@ -1,0 +1,34 @@
+<block>
+  <name>Cp adder</name>
+  <key>my_lte_cp_adder</key>
+  <category>MY_LTE</category>
+  <import>import my_lte</import>
+  <make>my_lte.cp_adder($N_dl_prb, $normal_cp)</make>
+  <param>
+    <name>Num. DL PRB</name>
+    <key>N_dl_prb</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>cp type</name>
+    <key>normal_cp</key>
+    <type>enum</type>
+    <option>
+	<name>normal</name>
+	<key>True</key>
+    </option>
+    <option>
+	<name>extended</name>
+	<key>False</key>
+    </option>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+    <vlen>2048</vlen>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>
